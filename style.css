@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(0, 68, 255);
+   color: #fff;
+}
+.container{
+    margin:12%;
+    width: 90%;
+    max-width: 700px;
+}
+.display{
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 26px 20px;
+    margin-top: 5px;
+}
+span{
+    display: flex;
+    color: whitesmoke;
+}
+.display input{
+    border: 0cap;
+    outline: 0cap;
+    font-size: 24px;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 290px;
+}
+button{
+    margin-top: 20px;
+    background-color: rgb(0, 200, 255);
+    font-style: oblique;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(255, 21, 0);
+}
